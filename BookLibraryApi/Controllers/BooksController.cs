@@ -13,22 +13,26 @@ namespace BookLibraryApi.Controllers
             new Book { Id = 2, Title = "Deep Work", Author = "Cal Newport" }
         };
 
-        [HttpGet]
-        public ActionResult<IEnumerable<Book>> GetAll() => Ok(_books);
-
-        [HttpGet("{id}")]
-        public ActionResult<Book> GetById(int id)
+       [HttpGet("all-books")]
+        public ActionResult<IEnumerable<Book>> GetAllBooks()
+        {
+            return Ok(_books);
+        }
+        
+        [HttpGet("book/{id}")]
+        public ActionResult<Book> GetBookById(int id)
         {
             var book = _books.FirstOrDefault(b => b.Id == id);
             return book == null ? NotFound() : Ok(book);
         }
-
-        [HttpPost]
-        public ActionResult Add(Book book)
+        
+        [HttpPost("add-book")]
+        public ActionResult AddBook([FromBody] Book book)
         {
             book.Id = _books.Max(b => b.Id) + 1;
             _books.Add(book);
-            return CreatedAtAction(nameof(GetById), new { id = book.Id }, book);
+            return CreatedAtAction(nameof(GetBookById), new { id = book.Id }, book);
         }
+
     }
 }
