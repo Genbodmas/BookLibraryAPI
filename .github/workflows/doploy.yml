@@ -24,5 +24,6 @@ jobs:
           ssh -o StrictHostKeyChecking=no ${{ secrets.SERVER_USER }}@${{ secrets.SERVER_HOST }} << 'EOF'
             cd ${{ secrets.APP_FOLDER }}
             git pull origin main
-            docker compose up -d --build
+            cd deploy
+            sudo docker-compose up -d --build
           EOF
