@@ -47,8 +47,17 @@ CodeCoverage/
 # MSTest test Results
 [Tt]est[Rr]esult*/
 [Bb]uild[Ll]og.*
+# Ignore GitHub Actions SSH key
+github-actions-key
+github-actions-key.pub
 
-# NUnit
+# NUnit test results
 *.VisualState.xml
 TestResult.xml
 nunit-*.xml
+
+# General
+*.log
+*.pem
+*.key
+.env
