@@ -10,7 +10,7 @@ namespace BookLibraryApi.Controllers
         private static List<Book> _books = new()
         {
             new Book { Id = 1, Title = "Atomic Habits", Author = "James Clear" },
-            new Book { Id = 2, Title = "Deep Work", Author = "Cal Newport" }
+            new Book { Id = 2, Title = "Deep Work", Author = "Cal TestPort" }
         };
 
         [HttpGet]
