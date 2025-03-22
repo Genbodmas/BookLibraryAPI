@@ -11,10 +11,6 @@
       "RelativeMoniker": "D:0:0:{820D1818-EB18-4DCB-B2E1-FADA1274869E}|BookLibraryApi.csproj|solutionrelative:controllers\\bookscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{820D1818-EB18-4DCB-B2E1-FADA1274869E}|BookLibraryApi.csproj|c:\\users\\olabode\\documents\\my work\\booklibrarytest\\booklibraryapi\\booklibraryapi\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{820D1818-EB18-4DCB-B2E1-FADA1274869E}|BookLibraryApi.csproj|solutionrelative:controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{820D1818-EB18-4DCB-B2E1-FADA1274869E}|BookLibraryApi.csproj|c:\\users\\olabode\\documents\\my work\\booklibrarytest\\booklibraryapi\\booklibraryapi\\models\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{820D1818-EB18-4DCB-B2E1-FADA1274869E}|BookLibraryApi.csproj|solutionrelative:models\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
@@ -26,23 +22,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "WeatherForecastController.cs",
-              "DocumentMoniker": "C:\\Users\\Olabode\\Documents\\My work\\BookLibraryTest\\BookLibraryAPI\\BookLibraryApi\\Controllers\\WeatherForecastController.cs",
-              "RelativeDocumentMoniker": "Controllers\\WeatherForecastController.cs",
-              "ToolTip": "C:\\Users\\Olabode\\Documents\\My work\\BookLibraryTest\\BookLibraryAPI\\BookLibraryApi\\Controllers\\WeatherForecastController.cs",
-              "RelativeToolTip": "Controllers\\WeatherForecastController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-21T20:06:44.908Z"
             },
             {
               "$type": "Document",
@@ -71,7 +55,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "Book.cs",
               "DocumentMoniker": "C:\\Users\\Olabode\\Documents\\My work\\BookLibraryTest\\BookLibraryAPI\\BookLibraryApi\\Models\\Book.cs",
               "RelativeDocumentMoniker": "Models\\Book.cs",
@@ -79,7 +63,8 @@
               "RelativeToolTip": "Models\\Book.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-21T20:03:40.965Z"
+              "WhenOpened": "2025-03-21T20:03:40.965Z",
+              "EditorCaption": ""
             }
           ]
         }
