@@ -13,7 +13,7 @@ namespace BookLibraryApi.Controllers
             new Book { Id = 2, Title = "Deep Work", Author = "Cal Newport" }
         };
 
-       [HttpGet("all-books")]
+       [HttpGet("get-all-books")]
         public ActionResult<IEnumerable<Book>> GetAllBooks()
         {
             return Ok(_books);
